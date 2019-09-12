@@ -686,6 +686,7 @@ public class TheDefectBoss extends AbstractMonster {
         MOVES = new String[]{
                 PaleMod.getCardName(Rainbow.class),
                 PaleMod.getCardName(BallLightning.class),
+                PaleMod.getCardName(Consume.class),
                 PaleMod.getCardName(Darkness.class) + '+',
                 PaleMod.getCardName(LockOn.class),
                 PaleMod.getCardName(Sunder.class),
@@ -697,7 +698,7 @@ public class TheDefectBoss extends AbstractMonster {
                 PaleMod.getCardName(Barrage.class),
                 PaleMod.getCardName(Fission.class) + '+',
                 PaleMod.getCardName(MeteorStrike.class),
-                PaleMod.getCardName(Chaos.class),
+                PaleMod.getCardName(Chaos.class)
         };
         DIALOG = monsterStrings.DIALOG;
     }
